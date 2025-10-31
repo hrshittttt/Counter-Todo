@@ -1,11 +1,12 @@
-import './App.css'
+import "./App.css";
+import Counter from "./Counter.jsx";
 
 function App() {
   return (
     <>
-      <h1 className='text-4xl underline bg-amber-400'>Hello</h1>
+      <Counter />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
